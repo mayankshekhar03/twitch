@@ -1,80 +1,82 @@
-.main {
-    max-width: 700px;
-    margin: 0 auto;
-    background-color: aqua;
-    border-radius: 5px;
-    overflow: auto;
-    padding: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-    position: relative;
-}
+@media screen and (min-width: 1000px) {
+    .main {
+        max-width: 700px;
+        margin: 0 auto;
+        background-color: aqua;
+        border-radius: 5px;
+        overflow: auto;
+        padding: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+        position: relative;
+    }
 
-h1 {
-    display: inline-block;
-}
+    h1 {
+        display: inline-block;
+    }
 
-.toggles {
-    position: absolute;
-    right: 20px;
-    padding: 28px 0px 30px 0px;
-}
+    .toggles {
+        position: absolute;
+        right: 20px;
+        padding: 28px 0px 30px 0px;
+    }
 
-.toggles > button {
-    border: none;
-    padding: 7px;
-    color: white;
-    background-color: red;
-    border-radius: 3px;
-    opacity: 0.9;
-    outline: none;
-}
+    .toggles > button {
+        border: none;
+        padding: 7px;
+        color: white;
+        background-color: red;
+        border-radius: 3px;
+        opacity: 0.9;
+        outline: none;
+    }
 
-button:hover {
-    opacity: 1;
-    box-shadow: 0px 2px 5px green;
-}
+    button:hover {
+        opacity: 1;
+        box-shadow: 0px 2px 5px green;
+    }
 
-button:active {
-    opacity: 0.8;
-}
+    button:active {
+        opacity: 0.8;
+    }
 
-.active1 {
-    background-color: darkviolet !important;
-}
+    .channels {
+        margin-bottom: 10px;
+    }
 
-.channels {
-    margin-bottom: 10px;
-}
+    #icon {
+        margin-right: 10px;
+        display: inline-block;
 
-#icon {
-    margin-right: 10px;
-    display: inline-block;
-    
-}
+    }
 
-#icon > img {
-    border-radius: 5px;
-    vertical-align:middle
-}
+    #icon > img {
+        border-radius: 5px;
+        vertical-align:middle
+    }
 
-#name {
-    display: inline-block;
-    margin-right: 10px;
-}
+    #name {
+        display: inline-block;
+        margin-right: 10px;
+    }
 
-#name > a {
-    text-decoration: none;
-    color: red;
-    font-size: 1.4em;
-    text-shadow: 1px 1px 1px green;
-}
+    #name > a {
+        text-decoration: none;
+        color: red;
+        font-size: 1.4em;
+        text-shadow: 1px 1px 1px green;
+    }
 
-#streaming {
-    display: inline-block;
-    float: right;
-    font-style: italic;
+    #streaming {
+        display: inline-block;
+        float: right;
+        font-style: italic;
+    }
 }
 
 .hidden {
     display: none;
+}
+
+.active1 {
+    background-color: darkviolet !important;
 }

@@ -28,8 +28,8 @@ function getChannelInfo() {
           logo + '" class="logo"></div><div id="name"><a href="' + 
           data.url + '" target="_blank">' + 
           name + '</a></div><div id="streaming">'+ 
-          game + '<div>' + 
-          description + '</div></div></div>';
+          game + '<span>' + 
+          description + '</span></div></div>';
         status === "online" ? $(".list").prepend(html) : $(".list").append(html);
       });
     });
