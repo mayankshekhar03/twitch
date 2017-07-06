@@ -59,6 +59,11 @@
 }
 
 @media screen and (max-width: 999px) {
+    
+    .list, button {
+        font-size: 2em;
+    }
+    
     .head {
         text-align: center
     }
