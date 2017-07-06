@@ -73,6 +73,85 @@
     }
 }
 
+@media screen and (max-width: 999px) {
+    body {
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .head {
+        padding: 20px;
+    }
+    
+    h1 {
+        display: inline-block;
+        font-size: .7em !important;
+    }
+    
+    .toggles {
+        position: absolute;
+        right: 20px;
+        padding: 2px 0px 3px 0px;
+    }
+    
+    .toggles > button {
+        border: none;
+        padding: 7px;
+        color: white;
+        background-color: red;
+        border-radius: 3px;
+        opacity: 0.9;
+        outline: none;
+    }
+    
+    .main {
+        background-color: cyan;
+        border-radius: 10px;
+        font-size: 3em;
+    }
+    
+    button:hover {
+        opacity: 1;
+        box-shadow: 0px 2px 13px green;
+    }
+    
+    .list {
+        padding: 20px;
+    }
+    
+    .channels {
+        margin-bottom: 10px;
+    }
+
+    #icon {
+        margin-right: 10px;
+        display: inline-block;
+
+    }
+
+    #icon > img {
+        border-radius: 5px;
+        vertical-align:middle
+    }
+
+    #name {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    #name > a {
+        text-decoration: none;
+        color: red;
+        text-shadow: 1px 1px 1px green;
+    }
+
+    #streaming {
+        display: inline-block;
+        float: right;
+        font-style: italic;
+    }
+}
+
+
 .hidden {
     display: none;
 }
