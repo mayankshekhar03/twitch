@@ -62,7 +62,14 @@ button:active {
     margin-right: 10px;
 }
 
+#name > a {
+    text-decoration: none;
+    color: red;
+    font-size: 1.4em;
+}
+
 #streaming {
     display: inline-block;
     float: right;
+    font-style: italic;
 }

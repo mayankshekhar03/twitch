@@ -23,7 +23,7 @@ function getChannelInfo() {
         var logo = data.logo != null ? data.logo : "https://dummyimage.com/50x50/ecf0e7/5c5457.jpg&text=0x3F",
           name = data.display_name != null ? data.display_name : channel,
           description = status === "online" ? ': ' + data.status : "";
-          html = '<div class="channels ' + 
+          html = '<div class="channels animated fadeInUp ' + 
           status + '"><div id="icon"><img width="50" src="' + 
           logo + '" class="logo"></div><div id="name"><a href="' + 
           data.url + '" target="_blank">' + 
