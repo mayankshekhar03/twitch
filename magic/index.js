@@ -42,16 +42,25 @@ $(document).ready(function(){
     $("#all").addClass("active1");
     $("#all").click(function(){
         $(".channels").removeClass("hidden");
+        $("#all").addClass("active1");
+        $("#online").removeClass("active1");
+        $("#offline").removeClass("active1");
     });
     
     $("#online").click(function(){
         $(".online").removeClass("hidden")
         $(".offline").addClass("hidden");
+        $("#online").addClass("active1");
+        $("#all").removeClass("active1");
+        $("#offline").removeClass("active1");
     });
     
     $("#offline").click(function(){
         $(".online").addClass("hidden");
         $(".offline").removeClass("hidden");
+        $("#offline").addClass("active1");
+        $("#online").removeClass("active1");
+        $("#all").removeClass("active1");
     });
     getChannelInfo();
 });
