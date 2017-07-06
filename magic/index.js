@@ -40,6 +40,18 @@ $(document).ready(function(){
     $(".main").addClass("animated fadeInUp");
     $(".head").addClass("animated fadeInDown");
     $("#all").addClass("active1");
+    $("#all").click(function(){
+        $(".channels").removeClass("hidden");
+    });
     
+    $("#online").click(function(){
+        $(".online").removeClass("hidden")
+        $(".offline").addClass("hidden");
+    });
+    
+    $("#offline").click(function(){
+        $(".online").addClass("hidden");
+        $(".offline").removeClass("hidden");
+    });
     getChannelInfo();
 });

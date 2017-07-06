@@ -66,10 +66,15 @@ button:active {
     text-decoration: none;
     color: red;
     font-size: 1.4em;
+    text-shadow: 1px 1px 1px green;
 }
 
 #streaming {
     display: inline-block;
     float: right;
     font-style: italic;
+}
+
+.hidden {
+    display: none;
 }
