@@ -27,7 +27,7 @@ function getChannelInfo() {
           status + '"><div id="icon"><img width="50" src="' + 
           logo + '" class="logo"></div><div id="name"><a href="' + 
           data.url + '" target="_blank">' + 
-          name + '</a></div><div id="streaming">'+ 
+          name + '</a></div><div id="streaming"> '+ 
           game + '<span>' + 
           description + '</span></div></div>';
         status === "online" ? $(".list").prepend(html) : $(".list").append(html);

@@ -61,11 +61,13 @@
 @media screen and (max-width: 999px) {
     
     .list{
-        font-size: 2em;
+        font-size: 2.5em;
+        margin-top: 30px;
     }
     
     button {
         font-size: 3em;
+        margin-right: 10px;
     }
     
     .head {
@@ -74,10 +76,34 @@
     
     .channels {
         margin-bottom: 10px;
+        overflow: auto;
+        padding: 20px;
+        border: 1px solid red;
+        border-radius: 5px;
     }
     
     #icon {
         display: inline-block;
+    }
+    
+    #icon > img {
+        vertical-align: middle
+    }
+    
+    #name {
+        display: inline-block;
+    }
+    
+    #streaming {
+        display: inline-block;
+        float: right;
+        text-align: right
+    }
+    
+    #name > a {
+        text-decoration: none;
+        color: red;
+        text-shadow: 0px 0px 2px green;
     }
 }
 
@@ -95,9 +121,10 @@
         padding: 7px;
         color: white;
         background-color: red;
-        border-radius: 3px;
+        border-radius: 7px;
         opacity: 0.9;
         outline: none;
+        margin-top: 3px;
     }
 
 button:hover {
