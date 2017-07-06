@@ -60,8 +60,12 @@
 
 @media screen and (max-width: 999px) {
     
-    .list, button {
+    .list{
         font-size: 2em;
+    }
+    
+    button {
+        font-size: 3em;
     }
     
     .head {
