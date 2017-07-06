@@ -1,3 +1,8 @@
+* {
+    
+        font-family: 'Source Sans Pro', sans-serif;
+}
+
 @media screen and (min-width: 1000px) {
     .main {
         max-width: 700px;
@@ -6,7 +11,6 @@
         border-radius: 5px;
         overflow: auto;
         padding: 20px;
-        font-family: 'Source Sans Pro', sans-serif;
         position: relative;
     }
 
@@ -18,25 +22,6 @@
         position: absolute;
         right: 20px;
         padding: 28px 0px 30px 0px;
-    }
-
-    .toggles > button {
-        border: none;
-        padding: 7px;
-        color: white;
-        background-color: red;
-        border-radius: 3px;
-        opacity: 0.9;
-        outline: none;
-    }
-
-    button:hover {
-        opacity: 1;
-        box-shadow: 0px 2px 5px green;
-    }
-
-    button:active {
-        opacity: 0.8;
     }
 
     .channels {
@@ -74,7 +59,17 @@
 }
 
 @media screen and (max-width: 999px) {
+    .head {
+        text-align: center
+    }
     
+    .channels {
+        margin-bottom: 10px;
+    }
+    
+    #icon {
+        display: inline-block;
+    }
 }
 
 
@@ -84,4 +79,23 @@
 
 .active1 {
     background-color: darkviolet !important;
+}
+
+.toggles > button {
+        border: none;
+        padding: 7px;
+        color: white;
+        background-color: red;
+        border-radius: 3px;
+        opacity: 0.9;
+        outline: none;
+    }
+
+button:hover {
+    opacity: 1;
+    box-shadow: 0px 2px 5px green;
+}
+
+button:active {
+    opacity: 0.8;
 }
